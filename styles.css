@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  #light-bulb {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  #light-bulb::after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 45px;
+  }
+  
